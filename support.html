@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — Tubik</title>
+  <meta name="description" content="Help with Tubik: setting up channels and categories, the timer, the parent PIN, and how to get in touch.">
+  <meta name="theme-color" content="#FBF7F0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0F1D1A" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://vskromny.github.io/tubik-landing/support.html">
+  <link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/support.html">
+  <link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/support.html">
+  <link rel="alternate" hreflang="x-default" href="https://vskromny.github.io/tubik-landing/support.html">
+  <meta property="og:title" content="Support — Tubik">
+  <meta property="og:image" content="https://vskromny.github.io/tubik-landing/assets/img/og-image.png">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="Tubik home"><img src="assets/img/icon-512.png" alt="" width="36" height="36">Tubik</a>
+      <nav class="nav" aria-label="Main">
+        <a class="hide-sm" href="privacy.html">Privacy</a>
+        <a class="lang" href="de/support.html" hreflang="de" lang="de">Deutsch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <div class="prose">
+      <h1>Support</h1>
+      <p>Tubik is a small personal project. Most answers are below; if yours isn't, get in touch.</p>
+
+      <h2 id="contact">Contact</h2>
+      <div class="card contact-card">
+        <p style="margin:0">Questions, bugs and ideas are collected as GitHub issues. Please don't include anything personal about your child.</p>
+        <a class="pill pill-brand" href="https://github.com/vskromny/tubik-landing/issues/new" rel="noopener">Open a support request</a>
+        <!-- SUPPORT_EMAIL_TODO: add a dedicated support e-mail address here (and on de/support.html) once one exists. Do not publish a personal address. -->
+      </div>
+
+      <h2>Setting up</h2>
+      <div class="faq">
+        <details>
+          <summary>How do I add a channel?</summary>
+          <div><p>In parent mode, open Channels and tap Add. Paste a link to the channel (for example one with an @handle) or a link to any of its videos. This works best. Searching by name is also possible but limited to a few searches per day, because YouTube rations searches for all apps.</p></div>
+        </details>
+        <details>
+          <summary>How do categories and time budgets work?</summary>
+          <div><p>Each child profile has a daily total. Each category can have its own daily budget on top. While your child watches a category, the smaller of the two applies. When a category's time is used up, its tile rests until tomorrow and your child can pick another one; when the daily total is used up, the session ends.</p></div>
+        </details>
+        <details>
+          <summary>What does "stop after this video" do?</summary>
+          <div><p>It ends the session as soon as the current video finishes, without needing the PIN. If the time runs out in the middle of a video that is nearly over, Tubik lets it finish; otherwise it moves to the goodbye screen.</p></div>
+        </details>
+        <details>
+          <summary>Why does the screen get darker?</summary>
+          <div><p>In the last few minutes of the budget Tubik slowly lowers the screen brightness, as a gentle signal that the end is coming. You can change the number of minutes or switch it off per profile. Brightness is restored when the session ends.</p></div>
+        </details>
+        <details>
+          <summary>Can my child leave Tubik?</summary>
+          <div><p>Getting back to parent mode needs the PIN. To keep a child from leaving the app altogether, use iOS Guided Access: Settings › Accessibility › Guided Access, then triple-click the side button in Tubik.</p></div>
+        </details>
+      </div>
+
+      <h2>Troubleshooting</h2>
+      <div class="faq">
+        <details>
+          <summary>I forgot my parent PIN</summary>
+          <div><p>There is no account, so the PIN can't be recovered from a server. Tap "Forgot PIN?" on the PIN screen and reset the app. This erases all profiles, categories and channels on that device.</p></div>
+        </details>
+        <details>
+          <summary>A video doesn't play or disappeared</summary>
+          <div><p>Some videos are removed by their owner or can't be played in other apps. Tubik hides them automatically. New videos from your channels appear when the list refreshes, at most every few hours.</p></div>
+        </details>
+        <details>
+          <summary>"Search is resting"</summary>
+          <div><p>The daily search allowance has been used up. Paste a channel or video link instead — it doesn't use a search.</p></div>
+        </details>
+        <details>
+          <summary>Nothing loads without internet</summary>
+          <div><p>The shelf shows what it remembers, but videos always stream from YouTube and need a connection. Tubik never downloads videos.</p></div>
+        </details>
+      </div>
+
+      <h2>About Tubik</h2>
+      <p>Tubik is an independent app. It is not affiliated with, endorsed or sponsored by YouTube or Google. It plays videos from YouTube channels you approve using YouTube's official embedded player. See the <a href="privacy.html">privacy policy</a> for what data goes where.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Footer">
+        <a href="./">Home</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="de/support.html" hreflang="de" lang="de">Deutsch</a>
+      </nav>
+      <p>Tubik is a personal project by Vladimir Skromny, Zurich. YouTube is a trademark of Google LLC.</p>
+    </div>
+  </footer>
+</body>
+</html>
