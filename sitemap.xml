@@ -36,4 +36,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/support.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/support.html"/>
   </url>
+  <url>
+    <loc>https://vskromny.github.io/tubik-landing/imprint.html</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/imprint.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/impressum.html"/>
+  </url>
+  <url>
+    <loc>https://vskromny.github.io/tubik-landing/de/impressum.html</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/imprint.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/impressum.html"/>
+  </url>
 </urlset>

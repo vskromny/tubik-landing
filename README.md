@@ -11,8 +11,8 @@ Plain static HTML/CSS, no build step, no JavaScript. What is committed is what s
 
 | Path | What |
 |---|---|
-| `index.html`, `privacy.html`, `support.html` | English pages |
-| `de/` | German versions (same filenames), linked via `hreflang` |
+| `index.html`, `privacy.html`, `support.html`, `imprint.html` | English pages |
+| `de/` | German versions (same filenames, `impressum.html` for the imprint), linked via `hreflang` |
 | `404.html` | Uses absolute `/tubik-landing/` paths — update when a custom domain is added |
 | `assets/style.css` | All styling; tokens mirror `tubik/product/design/tokens.json` ("Evening Shelf"), light/dark via `prefers-color-scheme` |
 | `assets/fonts/` | Nunito variable woff2 (latin subset), self-hosted, SIL OFL 1.1 (`OFL.txt`) |
@@ -30,8 +30,6 @@ Serve locally: `python3 -m http.server 8000`.
 
 ## Open placeholders
 
-- `SUPPORT_EMAIL_TODO` (HTML comment in `support.html`): no support e-mail yet; support goes
-  through GitHub Issues on this repo. Add the address to `support.html`, `de/support.html` and the
-  privacy pages once one exists. Do not publish a personal address.
+- Support/imprint e-mail is `hello@recipics.app` (ReciPics address, per owner instruction); replace with a Tubik-specific address if one is created.
 - The app icon (`assets/img/icon-512.png`, favicon) is a placeholder "T" mark, not the final icon.
 - No App Store badge/link until the app is live.
