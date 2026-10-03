@@ -1,7 +1,6 @@
 # tubik-landing
 
-Public landing site for **Tubik**, a calm video app for parents of young children (iOS first,
-Android later). Personal project of Vladimir Skromny — not an Appligent AI product.
+Public landing site for **Tubik**, a calm video app for parents of young children (iPhone and iPad). Personal project of Vladimir Skromny — not an Appligent AI product.
 
 Live: https://vskromny.github.io/tubik-landing/ (GitHub Pages, `main` / root, no custom domain yet).
 
