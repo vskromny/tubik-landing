@@ -11,12 +11,15 @@ Plain static HTML/CSS, no build step, no JavaScript. What is committed is what s
 
 | Path | What |
 |---|---|
-| `index.html`, `privacy.html`, `support.html`, `imprint.html` | English pages |
-| `de/` | German versions (same filenames, `impressum.html` for the imprint), linked via `hreflang` |
+| `index.html`, `privacy.html`, `terms.html`, `support.html`, `imprint.html` | English pages |
+| `de/` | German versions (same filenames, `impressum.html` for the imprint, `nutzungsbedingungen.html` for the terms), linked via `hreflang` |
+| `player/index.html` | Player identity page (`noindex`, not in the sitemap) — see below |
 | `404.html` | Uses absolute `/tubik-landing/` paths — update when a custom domain is added |
 | `assets/style.css` | All styling; tokens mirror `tubik/product/design/tokens.json` ("Evening Shelf"), light/dark via `prefers-color-scheme` |
 | `assets/fonts/` | Nunito variable woff2 (latin subset), self-hosted, SIL OFL 1.1 (`OFL.txt`) |
 | `assets/img/` | App mockups (from `tubik/product/design/mockups/png`), OG image, placeholder icon |
+
+`https://vskromny.github.io/tubik-landing/player/` is the base URL of the app's bundled video player page, so it is the HTTP Referer the YouTube embed sees; the page only explains that and must keep that URL.
 
 Serve locally: `python3 -m http.server 8000`.
 

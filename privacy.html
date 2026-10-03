@@ -65,10 +65,10 @@
       <p>Videos play in YouTube's official IFrame player, unmodified, inside the app. We load it in YouTube's privacy-enhanced mode (youtube-nocookie.com) and treat every video with the settings YouTube requires for content made for children. When a video plays, YouTube receives data such as your IP address, device and browser information and how the player is used (for example play and pause), as it does for any embedded video. YouTube may show its own ads in the player. We have no access to this data and no control over it. Player cookies are cleared when a child session ends. You do not sign in to YouTube in Tubik.</p>
       <h3>YouTube Data API</h3>
       <p>In parent mode, when you add a channel by link or search for one by name, and when the app refreshes the video lists of your approved channels, it sends requests to the YouTube Data API. These contain the channel or video IDs, or the search words you typed, together with the app's API key. They tell Google nothing about your child and are not linked to any account. The app reads public information only — titles, thumbnails, durations and whether a video is made for children and may be embedded. Tubik never posts, likes, subscribes or creates anything on YouTube. Thumbnails are loaded from Google's image servers.</p>
-      <p>By using Tubik you are also bound by the <a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms of Service</a>. Google's handling of data is described in the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>. You can revoke access to your data through <a href="https://security.google.com/settings/security/permissions" rel="noopener">Google's security settings</a>, although Tubik does not request access to any Google account.</p>
+      <p>By using Tubik you are also bound by the <a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms of Service</a>. Google's handling of data is described in the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>. You can revoke access to your data through <a href="https://security.google.com/settings/security/permissions" rel="noopener">Google's security settings</a>, although Tubik does not request access to any Google account. Our own terms are on the <a href="terms.html">terms of use</a> page.</p>
 
       <h2>Children</h2>
-      <p>Tubik is a tool for parents. Children use it only in child mode, which a parent starts. We do not collect personal information from children. Child mode makes no network requests other than playing the approved videos in YouTube's player and loading their thumbnails; it never triggers a search.</p>
+      <p>Tubik is a tool for parents. Children use it only in child mode, which a parent starts. We do not collect personal information from children. When a child session starts, the app refreshes the video lists of the approved channels through the YouTube Data API — the same requests as in parent mode, containing only channel or playlist IDs and the app's API key, nothing about your child. Apart from that, child mode only plays the approved videos in YouTube's player and loads their thumbnails; it never triggers a search.</p>
 
       <h2>Purchases</h2>
       <p>If the app offers optional in-app purchases for parent features, they are processed by Apple. We receive no payment details, only the confirmation the App Store gives the app on your device.</p>
@@ -101,6 +101,7 @@
       <nav aria-label="Footer">
         <a href="./">Home</a>
         <a href="support.html">Support</a>
+        <a href="terms.html">Terms</a>
         <a href="imprint.html">Imprint</a>
         <a href="de/privacy.html" hreflang="de" lang="de">Deutsch</a>
       </nav>
