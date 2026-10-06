@@ -33,5 +33,5 @@ Serve locally: `python3 -m http.server 8000`.
 ## Open placeholders
 
 - Support/imprint e-mail is `hello@recipics.app` (ReciPics address, per owner instruction); replace with a Tubik-specific address if one is created.
-- The app icon (`assets/img/icon-512.png`, favicon) is a placeholder "T" mark, not the final icon.
+- The app icon (`assets/img/icon-512.png`, favicon) is the real app icon (night variant of `AppIcon`, exported from the app asset catalog).
 - No App Store badge/link until the app is live.
