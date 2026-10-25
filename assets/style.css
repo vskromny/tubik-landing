@@ -380,3 +380,7 @@ th { color: var(--ink); font-weight: 700; }
 @media (max-width: 480px) {
   .home .hero-cta { flex-direction: column-reverse; align-items: flex-start; }
 }
+
+/* App Store badge (Apple artwork, unmodified; clear space >= 1/4 badge height) */
+.appstore-badge { display: inline-block; line-height: 0; margin: 12px 0; border-radius: 10px; }
+.appstore-badge img { display: block; height: 48px; width: auto; }
