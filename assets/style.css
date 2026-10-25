@@ -264,7 +264,7 @@ th { color: var(--ink); font-weight: 700; }
 .home .eyebrow::before { content: ""; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 5px var(--halo); flex: none; }
 .home h1 { font-size: clamp(2.9rem, 1.2rem + 7vw, 5.25rem); font-weight: 900; line-height: .98; letter-spacing: -.04em; margin-bottom: .32em; }
 .home .lede { font-size: clamp(1.15rem, 1.05rem + .5vw, 1.4rem); line-height: 1.55; color: var(--ink-2); max-width: 30em; }
-.home .hero-cta { margin-top: 32px; gap: 8px 20px; flex-direction: row-reverse; justify-content: flex-end; }
+.home .hero-cta { margin-top: 32px; gap: 8px 20px; flex-direction: row; justify-content: flex-start; }
 .home .hero-note { color: var(--ink-2); font-size: .98rem; margin-top: 18px; }
 
 .home .device { width: min(340px, 74vw); }
@@ -378,7 +378,7 @@ th { color: var(--ink); font-weight: 700; }
 .home .site-footer p { max-width: 52em; }
 
 @media (max-width: 480px) {
-  .home .hero-cta { flex-direction: column-reverse; align-items: flex-start; }
+  .home .hero-cta { flex-direction: column; align-items: flex-start; }
 }
 
 /* App Store badge (Apple artwork, unmodified; clear space >= 1/4 badge height) */
