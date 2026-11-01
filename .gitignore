@@ -1,2 +1,5 @@
 agents-artifacts/
 .DS_Store
+
+# Git worktrees (owner rule 21.10)
+.worktrees/
