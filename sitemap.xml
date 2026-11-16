@@ -60,4 +60,28 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/terms.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/nutzungsbedingungen.html"/>
   </url>
+  <url>
+    <loc>https://vskromny.github.io/tubik-landing/video-timer.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/video-timer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/videozeit-begrenzen.html"/>
+  </url>
+  <url>
+    <loc>https://vskromny.github.io/tubik-landing/de/videozeit-begrenzen.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/video-timer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/videozeit-begrenzen.html"/>
+  </url>
+  <url>
+    <loc>https://vskromny.github.io/tubik-landing/approved-channels.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/approved-channels.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/freigegebene-kanaele.html"/>
+  </url>
+  <url>
+    <loc>https://vskromny.github.io/tubik-landing/de/freigegebene-kanaele.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/approved-channels.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/freigegebene-kanaele.html"/>
+  </url>
 </urlset>
