@@ -96,4 +96,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/organize-channels-categories.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/kanaele-kategorien.html"/>
   </url>
+  <url>
+    <loc>https://vskromny.github.io/tubik-landing/youtube-player-ipad.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/youtube-player-ipad.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/video-player-ipad.html"/>
+  </url>
+  <url>
+    <loc>https://vskromny.github.io/tubik-landing/de/video-player-ipad.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/youtube-player-ipad.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/video-player-ipad.html"/>
+  </url>
 </urlset>
