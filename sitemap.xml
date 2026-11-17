@@ -84,4 +84,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/approved-channels.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/freigegebene-kanaele.html"/>
   </url>
+  <url>
+    <loc>https://vskromny.github.io/tubik-landing/organize-channels-categories.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/organize-channels-categories.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/kanaele-kategorien.html"/>
+  </url>
+  <url>
+    <loc>https://vskromny.github.io/tubik-landing/de/kanaele-kategorien.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vskromny.github.io/tubik-landing/organize-channels-categories.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vskromny.github.io/tubik-landing/de/kanaele-kategorien.html"/>
+  </url>
 </urlset>
